@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://github.com/modern_mantra”
 
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.source       = { :git => "https://github.com/ModernMantra/LoremPicsum", :tag => “1.0.0” }
 
