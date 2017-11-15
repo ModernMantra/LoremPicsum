@@ -8,11 +8,13 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://github.com/modern_mantra”
 
+  s.author       = { "Kerim Njuhovic" => "modern_mantra@hotmail.com"}
+
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.source       = { :git => "https://github.com/ModernMantra/LoremPicsum", :tag => “1.0.0” }
+  s.source       = { :git => "https://github.com/ModernMantra/LoremPicsum.git", :tag => s.version.to_s }
 
-  s.source_files  = "LoremPicsum", "LoremPicsum/**/*.{h,m,swift}"
+  s.source_files  = ["LoremPicsum/Classes/**/*"]
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
